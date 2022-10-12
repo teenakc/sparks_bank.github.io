@@ -1,0 +1,192 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: sans-serif;
+	background: url('bank.jpg') no-repeat center center/cover;
+	height: 110vh;
+}
+
+#nav-bar {
+	background-color: black;
+	position: sticky;
+	top: 0;
+	z-index: 10;
+	float: right;
+}
+
+.navbar {
+	padding: 0 !important;
+}
+
+.navbar-nav li {
+	padding: 0 10px;
+}
+.navbar-nav li a {
+	color: #fff !important;
+	font-weight: 600;
+	float: right;
+	text-align: left;
+}
+
+.fa-bars {
+	font-size: 30p !important;
+}
+
+.navbar-toggler {
+	outline: none !important;
+}
+
+/*---banner section--*/
+#main {
+	text-align: center;
+	background-color: black;
+	color: #fff;
+	padding-top: 50%;
+}
+
+.container h1 img {
+	padding-bottom: 10px;
+}
+
+/*---service section---*/
+#features1 {
+	text-align: center;
+	padding: 10% 15%;
+}
+
+#features {
+	text-align: center;
+	padding: 10% 15%;
+	background-image: url('https://images.unsplash.com/photo-1560472355-536de3962603?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1550&q=80')
+}
+
+.features1 h3 {
+	padding: 5px;
+	margin-top: 25px;
+	text-transform: uppercase;
+}
+
+.features h3 {
+	padding: 5px;
+	margin-top: 25px;
+	text-transform: uppercase;
+}
+
+.title {
+	/* content: ''; */
+	height: 10px;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+}
+
+.serv {
+	padding: 10px;
+}
+
+#features .btn-primary {
+	box-shadow: none;
+	padding: 10px 25px;
+	border: none;
+	align-content: center;
+	background-image: linear-gradient(to right, #a517ba, #5f1782)
+}
+
+.details {
+	background: #f0f8ff;
+}
+
+.details .content {
+	padding: 40px 0;
+}
+
+.details .-details {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.-details .text {
+	width: 50%;
+}
+
+.-details p {
+	color: black;
+	text-align: justify;
+}
+
+.details .-details .experience {
+	display: flex;
+	align-items: center;
+	margin: 0 10px;
+}
+
+.-details .experience .num {
+	color: black;
+	font-size: 80px;
+}
+
+.-details .experience .exp {
+	color: black;
+	margin-left: 20px;
+	font-size: 18px;
+	font-weight: 500;
+	margin: 0 6px;
+}
+
+.-details .boxes {
+	width: 45%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.-details .box {
+	width: calc(100% / 2 - 20px);
+	margin: 20px 0;
+}
+
+.-details .boxes .topic {
+	font-size: 20px;
+	color: var(--primary-color);
+}
+
+.-details .boxes .per {
+	font-size: 60px;
+	color: var(--primary-color);
+}
+
+/* Action*/
+#action {
+	background-color: #083a69;
+	padding: 5% 10%;
+	text-align: center;
+	line-height: 1.0;
+	color: #fff;
+}
+
+.main {
+	font-size: 3rem;
+	line-height: 1.5;
+	padding: 10px 0px;
+}
+
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 30px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+}
+
+#footer {
+	background-color: #083a69;
+	color: #fff;
+	padding: 2% 20%;
+	text-align: center;
+}
