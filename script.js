@@ -47,7 +47,7 @@ function sendMoney() {
         // TRANSACTION DETAILS 
         var createPTag = document.createElement("li");
         var textNode = document.createTextNode(`Rs ${enterAmount} sent from ${enterSName}'s account 
-        to ${enterName}'s on ${Date()}.`);
+        to ${enterName}'s account on ${Date()}.`);
         createPTag.appendChild(textNode);
         var element = document.getElementById("transaction-history-body");
         element.insertBefore(createPTag, element.firstChild);
